@@ -29,9 +29,7 @@
 						<li><a href="https://github.com/KyleDakin" class="icon brands fa-github"><span
 									class="label">GitHub</span></a></li>
 						<li><a href="https://www.linkedin.com/in/kyle-dakin-867b75185/"
-								class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-						<li><a href="https://stackoverflow.com/users/11936614/emperorduck"
-								class="icon brands fa-stack-overflow"><span class="label">GitHub</span></a></li>
+								class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>	
 					</ul>
 				</header>
 
@@ -51,8 +49,6 @@
 									Report</a></li>
 						</ul>
 					</div>
-					<span class="image object">
-					</span>
 				</section>
 
 				<!-- Section -->
@@ -60,11 +56,50 @@
 					<header class="main">
 						<h2>About</h2>
 					</header>
-						<div> AI being a huge part of video games, the games development industry has not implemented machine learning in any way. Dissertation is a look at how machine learning could be used in games development.
-						Cant be used in gameplay due to factors (eg)</div>&nbsp;
+						<div> 
+							Despite artificial intelligence (AI) being a core element to a lot of modern games, the games development industry has not used machine learning in any way. 
+							For my final year project at university, I decided to explore machine learning and it's potential uses in games. To do this, I first starting researching AI in games
+							and possible reasons why games developers have decided to not use this new technology that most other industries are rushing to adopt.
+
+							<br><br>
+
+							During my research, I found some good potential reasons why machine learning has not been utilised in video games. Slow to learn, resources required to develop (time away from core gameplay development),
+							not fun to play against as it could be too easy (untrained) or completely impossible (trained), computationally expensive when it can be faked for cheaper in controlled game environments, unpreditable behaviour can make games uninteractive,
+
+
+							<br><br>
+
+							Because of this I decided the best use case for machine learning in games, would be in aiding development rather than as an algorithm for in game AI used for enemies etc. 
+							By creating pretrained machine learning algorithms, time could be spent elsewhere instead of in development of pretrained features. Focussed on creating a natural selection style simulator,
+							to create lifelike behaviour in simple creatures that could help in video games to produce more realistic and more immersive environments.
+
+							<br><br>
+
+							Created template terrain using procedural generation to create different training environments that AI could learn from. Decided on using a state machine, as the focus of the projects was more on machine learning,
+							so wanted to focus more time on the machine learning part, and basic state machine would be able to carry out the basic behaviour required for this project
+
+							<br><br>
+
+							Decided on NeuroEvolution of Augmenting Topologies (NEAT) as it is a genetic algorithm which suited the goal for natural/biological evolution. Additionally, there was SharpNEAT and UnityNEAT available so if I could not program the NEAT algorithm
+							myself in the timeframe of the project, than I had third party tools that I could use to complete the project. 
+							</div>&nbsp;
 					<header class="main">
 						<h2>Future Development</h2></header>
-						<div>Redesign ai to use a utility AI and program NEAT from scratch as UnityNEAT only allows for one learning agent whereas I wanted more than one agent to learn.</div>
+						<div>
+							I plan on revisiting this project in the future to further develop this idea, but I plan on changing several parts from the original project.
+
+							<br><br>
+							First I want to write the NEAT algorithm myself. UnityNEAT is only designed to have one learning agent at once, whereas I want several agents learning at the same time
+							to simulate an evolving ecosystem.
+
+							<br><br>
+							Second I want to change to AI algorithm used from a state machine to a utility AI. Utility was something that I learned about while researching, and is commonly used in games like XCOM,
+							and I think it would be a suitable and lightweight algorithm for controlling the behaviour of the AI, and would work nicely with the NEAT algorithm as utlity uses biases/weights to determine
+							what choice it wants to make based on observed conditions and this could be an output of the neat algorithm to simulate natural survival instincts.
+
+							<br><br>
+							Lastly I want to procedurally generate the creatures so they can physiologically evolve and adapt to each environment. Inspired by No Mans Sky.
+						</div>
 					
 				</section>
 			</div>
@@ -98,9 +133,6 @@
 						<i class="fab fa-linkedin fa-lg"> <a
 								href="https://www.linkedin.com/in/kyle-dakin-867b75185/">LinkedIn</a></i>
 						<li></li>
-						<i class="fab fa-stack-overflow fa-lg"> <a
-								href="https://stackoverflow.com/users/11936614/emperorduck">StackOverflow</a></i>
-						<li></li>
 						<i class="fas fa-envelope-square fa-lg"> <a
 								href="mailto:dakin.kyle97@gmail.com">dakin.kyle97@gmail.com</a></i>
 					</ul>
@@ -108,8 +140,8 @@
 
 				<!-- Footer -->
 				<footer id="footer">
-					<p>Design: <a href="https://html5up.net">HTML5 UP</a>. <br><a
-							href="https://icons8.com/">Icons by Icons8</a></p>
+					<p>Design: <a href="https://html5up.net">HTML5 UP</a>. <br>Icons: <a href="https://icons8.com/">
+							Icons8</a></p>
 				</footer>
 
 			</div>
